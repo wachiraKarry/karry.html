@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    h2{
+      text-align: center;
+      font-family: Chilanka;
+      font-size: 30px;
+      background-color: darkorange;
+    }
+    input{
+      padding: 5px;
+      margin: 7px;
+      background-color: aqua;
+      font-size: 20px;
+    }
+    body{
+      background-image:url("assets/images/emobilis logo.png");
+      background-repeat: no-repeat;
+      background-size:contain;
+    }
+    label{
+      background-color: pink;
+      font-family: "Ubuntu Condensed";
+      font-size: 30px;
+    }
+  </style>
+
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>forms</title>
+</head>
+<body>
+<h2>Emobilis registration form</h2>
+<form action="">
+  <label for="fname">first name</label>
+  <input type="text" id="fname" name="jina" required placeholder="enter name"><br><br>
+  <label for="lname"> last name</label>
+  <input type="text"id="lname" name="jina*" placeholder="enter name"><br><br>
+  <label for="email">Email</label>
+  <input type="email"id="email" name="barua pepe" placeholder="enter email address"><br><br>
+  <label for="phone">mobile number</label>
+  <input type="text" id="phone" name="nambari ya simu" placeholder="enter phone number"><br><br>
+  <label for="female">female</label>
+  <input type="radio" id="female" name="gender">
+  <label for="male">male</label>
+  <input type="radio"id="male" name="gender">
+  <label for="others">custom</label>
+  <input type="radio"id="others" name="gender"><br><br>
+  <label for="course">course taken</label>
+  <select name="course taken" id="course">
+    <option value="android"> android</option>
+    <option value="react js"> react js</option>
+    <option value="full stack">full stack</option>
+    <option value="machine learning">machine learning</option>
+    <option value="robotics">robotics</option>
+    <option value="artificial intelligence">artificial intelligence</option>
+  </select><br><br>
+  <label for="DoB">Date of birth</label>
+  <input type="date" id="DoB" name="tarehe ya kuzaliwa" placeholder="enter date of birth"><br><br>
+  <label for="password">password</label>
+  <input type="password" id="password" name="passcode" placeholder="enter desired password"><br><br>
+  <label for="upload image">upload image</label>
+  <input type="file" id="upload image"><br><br>
+  <input type="submit" value="register">
+
+</form>
+
+</body>
+</html>

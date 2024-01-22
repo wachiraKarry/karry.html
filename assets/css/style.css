@@ -1,0 +1,45 @@
+.fruits{
+  border: 3px solid aquamarine;
+  text-align: center;
+  font-family: "DejaVu Sans Mono";
+  background-color: blue;
+  margin: 20px;
+  padding: 7px;
+  font-size: 20px;
+}
+.FRUITS{
+  border: 7px dotted deeppink;
+  text-align: left;
+  font-family: Chilanka;
+  background-color: red;
+  margin: 5px;
+  padding: 7px;
+  font-size:20px;
+}
+.cars{
+border: 3px solid aquamarine;
+  text-align: center;
+  font-family: "DejaVu Sans Mono";
+  background-color: orangered;
+  margin: 20px;
+  padding: 7px;
+  font-size: 20px;
+}
+#computers{
+  border: 3px solid aquamarine;
+  text-align: center;
+  font-family: "DejaVu Sans Mono";
+  background-color: pink;
+  margin: 20px;
+  padding: 7px;
+  font-size: 20px;
+}
+.Fruits{
+  border: 3px solid aquamarine;
+  text-align: center;
+  font-family: "DejaVu Sans Mono";
+  background-color: blue;
+  margin: 20px;
+  padding: 7px;
+  font-size: 20px;
+}
